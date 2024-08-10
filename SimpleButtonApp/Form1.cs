@@ -15,11 +15,12 @@ namespace SimpleButtonApp
         public Form1()
         {
             InitializeComponent();
+
         }
 
         private void simpleButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Button Clicked!");
+            MessageBox.Show("Button Clicked!!!!!!!","確認");
             simpleButton.Text = "Press Me!";
             simpleButton.BackColor = Color.LightBlue;
             //
