@@ -20,6 +20,7 @@ namespace SimpleButtonApp
         private void simpleButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Button Clicked!");
+            simpleButton.Text = "Press Me!";
             simpleButton.BackColor = Color.LightBlue;
         }
     }
