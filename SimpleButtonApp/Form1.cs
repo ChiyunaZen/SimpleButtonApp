@@ -16,5 +16,10 @@ namespace SimpleButtonApp
         {
             InitializeComponent();
         }
+
+        private void simpleButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Button Clicked!");
+        }
     }
 }
